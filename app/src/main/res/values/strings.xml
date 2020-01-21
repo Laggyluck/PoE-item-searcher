@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PoE item searcher</string>
+    <string name="itemName">Type item\'s name you want to find:</string>
+    <string name="itemNameHint">Item\'s name:</string>
+    <string name="SearchItem">Search</string>
+    <string name="searchAgain">Search again</string>
+    <string name="standardLeague">standard</string>
+    <string name="hardcoreLeague">hardcore</string>
+</resources>
