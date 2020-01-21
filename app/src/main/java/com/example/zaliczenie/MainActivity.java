@@ -1,6 +1,7 @@
 package com.example.zaliczenie;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -109,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         // Checking if we got any response
                         // Handling exception when user doesn't check league
-                        // or doesn't enter item's name or can't get any response
+                        // or doesn't enter item's name
                         if (searchItem.getText().toString().equals("") && league.equals("")) {
                             Toast.makeText(getApplicationContext(),
                                     "You need to select league and enter item's name!",
@@ -123,11 +124,6 @@ public class MainActivity extends AppCompatActivity {
                         } else if (searchItem.getText().toString().equals("")) {
                             Toast.makeText(getApplicationContext(),
                                     "You need to enter item's name!",
-                                    Toast.LENGTH_LONG).show();
-                            searchAgain(view);
-                        } else if (response.isNull(response.toString())) {
-                            Toast.makeText(getApplicationContext(),
-                                    "Cannot find such item.",
                                     Toast.LENGTH_LONG).show();
                             searchAgain(view);
                         }
