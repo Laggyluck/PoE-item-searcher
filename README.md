@@ -6,9 +6,9 @@ You just need to type item's name and league and search button.
 App uses Volley to communicate with api.
 
 Some examples of items u may search:
-Fluid Motion
-Doom Collar
-Conqueror's Efficiency
-Inertia
-Behemoth Spike
+Fluid Motion,
+Doom Collar,
+Conqueror's Efficiency,
+Inertia,
+Behemoth Spike,
 Roth's Reach
